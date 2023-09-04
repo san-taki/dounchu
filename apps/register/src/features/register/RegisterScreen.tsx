@@ -1,6 +1,11 @@
+import { Stack } from "@mui/material";
+import FilledButton from "../../components/FilledButton";
+
 const RegisterScreen = () => {
   return (
-    <div>'register screen'</div>
+    <Stack>
+      <FilledButton onClick={() => {}} children={"tapme"} />
+    </Stack>
   );
 };
 
